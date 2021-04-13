@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="孚链艺术鉴证体系是由孚链艺统科技有限公司联合浙江大学、上海交通大学共同研制开发的国内目前唯一以AID鉴证技术为核心，以区块链技术为背书 的艺术品鉴证溯源平台。该平台的主体是由以人工智能加模式化识别技术为保障 的艺术品鉴证体系和基于区块链技术的“分区共识”艺术品数据库两部分组成。">
+    <meta name="keywords" content="">
+    <link rel="icon" href="<%= BASE_URL %>custom.png">
+    <title>孚链艺术品鉴证备案网</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+    window.onload = function() {
+      document.addEventListener('touchstart', function(event) {
+        if (event.touches.length > 1) {
+          event.preventDefault()
+        }
+      })
+      document.addEventListener('gesturestart', function(event) {
+        event.preventDefault()
+      })
+    }
+    </script>
+</html>
