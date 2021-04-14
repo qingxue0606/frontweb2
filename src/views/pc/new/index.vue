@@ -332,6 +332,9 @@ export default {
 			this.imgFlag = !this.imgFlag;
 		},
 		search () {
+
+
+
 			// 搜图
 			if (this.imgFlag && this.uploadImg) {
 				this.$router.push({
