@@ -90,13 +90,7 @@
 						border-radius: 8px;
 						margin-top: 43px;
 						position: relative;
-						&:hover {
-							caret-color: #357cff;
-							border: 2px solid #357cff;
-							.searchIco {
-								background: #326ad3;
-							}
-						}
+
 						input {
 							flex: 1;
 							border-radius: 8px;
@@ -116,13 +110,11 @@
 							top: 50%;
 							transform: translateY(-50%);
 							right: 70px;
-							cursor: pointer;
 						}
 						.searchIco {
 							width: 70px;
 							height: 44px;
 							color: #fff;
-							cursor: pointer;
 							font-size: 17px;
 							line-height: 44px;
 							text-align: center;
@@ -133,7 +125,6 @@
 							top: -2px;
 						}
 					}
-
 				}
 			}
 
