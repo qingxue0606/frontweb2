@@ -253,6 +253,7 @@ export default {
           position: relative;
 
           input {
+			  width: 100%;
             flex: 1;
             border-radius: 8px;
             font-size: 14px;
@@ -276,7 +277,7 @@ export default {
             width: 70px;
             height: 44px;
             color: #fff;
-            font-size: 17px;
+            font-size: 15px;
             line-height: 44px;
             text-align: center;
             background: #357cff;
