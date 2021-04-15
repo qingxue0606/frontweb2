@@ -6,7 +6,8 @@
 
 		<el-carousel  height="500px" indicator-position="outside" class="carousel">
 			<el-carousel-item v-for="item in coreBussiness" :key="item">
-				<img class="pic" src="" alt="" />
+				<div class="pic"><img  src="" alt="" /></div>
+
 				<div class="cbname"><img :src="coreBussiness[0].icon" alt="" />{{ item.name }}</div>
 				<p class="desc">{{item.desc}}</p>
 				<p class="buss"><span v-for="(ite, ind) in item.buss" :key="ind">{{
@@ -165,11 +166,11 @@
 		}
 		.desc{
 			margin: 20px;
-			font-size: 22px;
+			font-size: 20px;
 		}
 		.buss{
 			margin: 20px;
-			font-size: 20px;
+			font-size: 18px;
 			color: rgb(91, 98, 100);
 
 			span:not(:nth-child(1)){
